@@ -1,0 +1,138 @@
+.nine{
+    position: relative;
+    background-color: whitesmoke;
+    padding-top: 4%;
+    height:110vh
+}
+.heading{
+    position: relative;
+    resize: both;
+}
+
+
+.containe{
+    position: relative;
+    /* margin-top: 4%; */
+    /* margin-bottom: 5%; */
+    margin-left: 12%;
+    margin-right: 12%;
+    /* border: 2px solid yellow; */
+}
+
+
+@media screen and (max-width:767px )
+{
+   
+    .heading h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .containe{
+       
+        margin-left: 2.5rem;
+        margin-right: 2rem;
+      
+    }
+
+
+} 
+
+hr{
+    position: relative;
+    width:8rem;
+    height: 0.625rem;
+    line-height: 0px;
+    background-color: #FFB738;
+    opacity: 0.5;
+    color:#FFB738;
+}
+h1 {
+    margin-bottom: 0; /* Remove the bottom margin */
+    font-size: 3rem;
+    opacity: 1;
+    /* font-family: ba; */
+    /* font-weight: bolder; */
+}
+
+hr {
+    margin-top: 0; /* Remove the top margin */
+    margin-bottom: 2.25rem;
+}
+
+.bar{
+    position: relative;
+    height:13.2rem;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+.bar::-webkit-scrollbar{
+    display: none;
+    overflow-x: scroll;
+}
+.marqueeDiv{
+
+    position: relative;
+    height:11rem;
+    width: 18rem;
+    background-color: transparent;
+    margin: auto;
+    margin-inline-start: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+}
+.marqueeDiv:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.cardBody{
+
+    position:relative; 
+    height: 100%;
+    width: 18rem;
+    color:rgb(109 114 128 );
+    line-height: 1.25rem;
+    padding: 5px;
+    background-color: white;
+    
+}
+@keyframes marquee {
+    100% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.bar {
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.bar .marqueeDiv {
+    display: flex;
+    animation: marquee 10s linear infinite;
+}
+ .bar .marqueeDiv {
+    display: inline-block;
+}
+/* ///////////////////////////////////////////////////// */
+.secondPart{
+    padding-top: 10vh;
+    /* padding-top: 10rem; */
+
+}
+.add{
+    position: relative;
+   
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-inline-start: 1rem;
+}
+
+/* //////////////////////// */
+.thirdPart{
+    position: relative;
+margin-top: 5rem;
+}

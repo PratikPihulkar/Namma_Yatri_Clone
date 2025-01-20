@@ -1,0 +1,73 @@
+<div class="nine" >
+    <div class="firstPart">
+            <div class="containe">
+                <div class="heading">
+                    <h1>
+                        Making it on the news
+                    </h1>
+                    <hr >
+                </div>
+
+
+                <div class="bar flex overflow-x-scroll pb-10 hide-scroll-bar">
+
+                    <div class="marqueeDiv"*ngFor="let item of list"   >
+                            <div class="card cardBody" >
+                                <img [src]="item.image" class="card-img-top" alt="..." style="position: relative;   height: 1.25rem;;width: 5rem;; display: flex; float: left;  ">
+                                <div class="card-body">
+                                
+                                <p class="card-text">{{item.detail}}</p>
+                                <a href="#" class="anchor" >Read full Artical</a>
+                                </div>
+                            </div>
+                            
+                    </div>
+                
+                </div>
+            </div>
+
+            
+    </div>
+    <div class="secondPart">
+
+        <div class="containe">
+            
+            <div class="heading">
+                <span class="text-fs-16 text-open-data-color-10 tracking-[.4em] mb-3" style="color: rgb(134 139 152 ); letter-spacing: .4em;">TRUSTED AND</span>
+                <h1 style="letter-spacing: -0.02em;">
+                    Backed by the Best
+                </h1>
+                <hr >
+            </div>
+            <div class="row advertice">
+                <div class="col-md-2 col-sm-12 add add1">
+                    <img src="https://nammayatri.in/logos/beckn_logo.svg" alt="">
+                </div>
+                <div class="col-md-3 col-sm-12  add add2">
+                    <img src="https://nammayatri.in/logos/juspayLogo.svg" alt="">
+                </div>
+                <div class="col-md-3 col-sm-12  add add3">
+                    <img src="https://nammayatri.in/logos/auto_logo.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="thirdPart">
+        <div class="containe">
+        <div class="heading">
+            <h1>
+               Member of
+            </h1>
+            <hr >
+        </div>
+       
+        <div class="row advertice">
+            <div class="col-md-2 col-sm-12 ">
+                <img src=" https://nammayatri.in/logos/ondcLogo.svg" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+</div> 

@@ -1,0 +1,143 @@
+.firstBackground{
+   
+    padding-top: 0vh;
+    min-height: 80vh;
+    background-image: url("https://nammayatri.in/img/homeBg.png");
+}
+@media screen and (min-width: 480px) {
+    .firstBackground{
+        position: relative;
+        min-height: 100vh; 
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    .firstBackground{
+        position: relative;
+        min-height: 70vh;
+    }
+}
+
+.nav{
+    position: relative;
+   background-color: brown;
+   height: 80px;
+   
+}
+.marqueeNav{
+    position: relative;
+    height: 5.5vh;
+    width: 100%;
+    background-color: #111111;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    color:white
+}
+
+  
+    @media screen and (min-width: 767px) {
+  
+    .nav{
+        position: relative;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        /* top: 10vh; */
+        background-color: rgb(125, 150, 150);
+        height:13vh;
+        min-height: 10vh;
+        
+      }
+  }
+  
+
+  .heading{
+    border: 2px solid rgb(27, 18, 18);
+    height: fit-content;
+    width: 40vw;
+    margin:5%;
+    width: 90%;
+  }
+  .above{
+    position: relative;
+    border: 1px solid rgb(80, 225, 58);
+    min-height: 50%;
+    margin: 0;
+  }
+  .information{
+    position: relative;
+    border: 1px solid rgb(52, 68, 50);
+    min-height: 50%;
+    padding: 2%;
+    
+  }
+
+
+  @media screen and (min-width: 480px)
+{
+    .heading{
+        border: 2px solid red;
+        
+        width: 30vw;
+        margin-left:10%;
+        margin-top:8vw;
+        float: left;
+        display: inline; 
+        
+      }
+      .above{
+        position: relative;
+        border: 1px solid rgb(80, 225, 58);
+        min-height: 50%;
+        margin: 0;
+      }
+      .information{
+        position: relative;
+        border: 1px solid rgb(52, 68, 50);
+        min-height: 50%;
+        padding: 2%;
+        
+      }
+}
+
+
+
+
+.imgdiv{
+    border: 2px solid rgb(19, 13, 19);
+    height: 50vh;
+    width: 100%;
+   
+    
+}
+@media screen and (min-width:480px) {
+    .imgdiv{
+        position: relative;
+        border: 2px solid rgb(80, 195, 30);
+        
+        bottom:0vh;
+        width: 50vw;
+        /* height: 680px; */
+        height: 81vh;
+        float: right;
+        display: inline; 
+    }
+   
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+  .imgdiv{
+    position: relative;
+    border: 2px solid rgb(72, 213, 203);
+    width: 50vw;
+    height: 55vh;
+    float: right;
+    display: inline; 
+    bottom: 0px;
+}
+}
+
+
+
+
+
+
+
+

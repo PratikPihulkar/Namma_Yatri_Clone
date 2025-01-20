@@ -1,0 +1,57 @@
+.eleven{
+    position: relative;
+    background-color: #2C2F3A;
+    padding-top: 5%;
+    color:#FFFFFF
+}
+.box{
+   
+    width: 80vw;
+    margin-left: 10%;
+}
+@media screen and (max-width:767px )
+{
+   
+    .heading h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .box{
+      
+        width: 90%;
+       margin: auto;
+      
+    }
+    .eleven{
+        position: relative;
+        background-color: #2C2F3A;
+        padding-top: 0%;
+        color:#FFFFFF
+    }
+  
+    
+}
+
+
+p{
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    color: #868B98;
+}
+h6{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.row{
+    position: relative;
+    margin-left: 0px;
+    
+}
+.styled-hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+

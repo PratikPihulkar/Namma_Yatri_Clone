@@ -1,0 +1,118 @@
+
+<div class="emptyDiv">
+    
+</div>
+<div class="ten"  >
+    <div class="containe ">
+         <div class="heading">
+            <h1>
+                        Frequently Asked Questions
+            </h1>
+            <hr >
+        </div>
+                    
+
+
+        <!-- <div class="row pb-4 " style="position: relative; ">
+            <div *ngFor="let item of qaList; let i = index" class="col-12 mb-3 border border-0 border-secondary rounded" style="position: relative; background-color: #E5E7EB; padding: 20px 24px; ">
+                <div class="d-flex justify-content-between align-items-center m-2 " (click)="" >
+                    <p style="margin-bottom: 0px;">{{ item.question }}</p>
+                    <button (click)="" style="border: none; background-color: transparent;" >
+                    <i class="{{ selectedAnswerIndex === i ? 'fa fa-angle-up' : 'fa fa-angle-down' }} toggle-button"></i>
+                    </button>
+                </div>
+                <div class=" m-2 ansDiv " *ngIf="">
+                    <p class="para">{{ item.answer }}</p>
+                </div>
+            </div>
+        </div> -->
+        <div class="row pb-4" style="position: relative;">
+            <div *ngFor="let item of qaList; let i = index" class="col-12 mb-3 border border-0 border-secondary rounded" style="position: relative; background-color: #E5E7EB; padding: 20px 24px;">
+                <div class="questionDiv d-flex justify-content-between align-items-center m-2" (click)="toggleAnswer(i)">
+                    <p style="margin-bottom: 0px;">{{ item.question }}</p>
+                    <button (click)="toggleAnswer(i); $event.stopPropagation();" style="border: none; background-color: transparent;">
+                        <i [class.fa-angle-up]="selectedAnswerIndex === i" [class.fa-angle-down]="selectedAnswerIndex !== i" class="fa toggle-button"></i>
+                    </button>
+                </div>
+                <div class="m-2 ansDiv" *ngIf="selectedAnswerIndex === i">
+                    <p class="para">{{ item.answer }}</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+        
+
+
+
+                   
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+                <div class="qa-container">
+                    <div class="qa-item" *ngFor="let qa of qaList; let i = index" (click)="toggleAnswer(i)">
+                      <div class="question">{{ qa.question }}</div>
+                      <button class="toggle-button" (click)="toggleAnswer(i, $event)">Toggle</button>
+                    </div>
+                  </div>
+                  <div *ngIf="selectedAnswerIndex !== null" class="answer">
+                    {{ qaList[selectedAnswerIndex]?.answer }}
+                  </div> -->
+
+
+                <!-- <div class="qa-container" *ngFor="let qa of qaList;"  style="margin-top: 4rem;border: 2px solid;">
+
+                    <div class="row question"  >
+                            <div class="col qdiv" style=" position:relative; display: flex;  display: inline; justify-content: space-between;">
+                               <p style=" position: relative;font-size: 15px; font-weight: 600; font-family: Arial; ">{{qa.question}}</p> 
+                            </div>
+
+                            <div class="col  btnDiv" style=" display: flex; float: right;">
+                                
+                                    <button> 
+                                    <i class="{{btnStr}}" style="font-size:15px; " ></i>
+                                </button>
+                            </div>
+                            
+                    </div> 
+                     <div class="answer" *ngIf="this.flag">
+                
+                                {{qa.answer}}
+                            </div>
+
+    
+                </div>
+
+-->
+<!-- //////////////////////////////////////////////////////////////// -->
+
+
+<!-- <div class="row">
+    @for (item of qaList; track $index) {
+        <div class="col-12 mb-2 border border-0 border-secondary rounded " style="background-color: white;">
+            <div class="d-flex justify-content-between align-items-center ">
+                <p>{{item.question}}</p>
+                <button (click)="forToggle($index)" style="border: none; background-color: transparent;"> <i class="{{btnStr}} toggle-button "></i> </button>
+            </div>
+            <div class="ansDiv" >
+                <p>{{item.answer}}</p>
+            </div>
+        </div>
+        
+    }
+</div> -->

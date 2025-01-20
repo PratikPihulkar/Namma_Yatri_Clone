@@ -1,0 +1,232 @@
+.eight{
+
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #2C2F3A;   
+    /* background-color: #909bc2;   */
+}
+
+/* @media screen and  (max-width: 1338px) {
+   .eight{
+    display: flex;
+    position: relative;
+    background-color: blueviolet;
+ }
+} */
+@media screen and  (min-width: 1338px) {
+   .eight{
+    display: flex;
+    position: relative;
+ }
+ 
+}
+.heading{
+    position: relative;
+    resize: both;
+}
+
+
+.containe{
+    position: relative;
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media screen and (min-width:768px) and (max-width:1100px )
+{
+    .containe{
+
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right:10%; 
+    }
+}
+
+@media screen and (max-width:767px )
+{
+    .containe{
+       background-color: transparent;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right:5%;
+    }
+    .heading h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .eight{
+        height: 60vh;
+    }
+}
+hr{
+    position: relative;
+    width:8rem;
+    height: 0.625rem;
+    line-height: 0px;
+    background-color: black;
+    opacity: 0.5;
+}
+.bar
+{
+    position: relative;
+    background-color: transparent;
+}
+
+
+
+@media screen and (max-width:768px) {
+    
+}
+hr{
+    position: relative;
+    width:8rem;
+    height: 0.625rem;
+    background-color: #FFB738;
+    opacity: 0.5;
+    line-height: 10px;
+    color:#FFB738;
+}
+h1{
+    margin-bottom: 0px;
+    color:#FFFFFF;
+}
+hr {
+    margin-top: 0; /* Remove the top margin */
+    margin-bottom: 2.25rem;
+}
+
+.bt{
+    background-color: transparent;
+    position: relative;
+    border: 1px solid #e5e7eb;
+    float: left;
+    height: 340px;
+    width: 288px;
+    padding: 20px;
+    margin-right:20px ;
+    border-radius: 7px;
+    flex-shrink: 0; /* Prevents shrinking when container width is smaller */
+    background-color: #FFFFFF;
+}
+.br{
+    position: relative;
+    margin-top: 5%;
+}
+.scroll-container{
+    display: flex;
+    overflow-x: scroll; /* Allows horizontal scrolling */
+    overflow-y: hidden; /* Hides vertical scrollbar */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    scrollbar-width: none; /* For Firefox */
+}
+
+
+.btn{
+    position: relative;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #B9BABE;
+    margin-top: 5%;
+    color: #B9BABE;
+}
+.firstButton{
+
+    margin-left: 0px;
+    width: 244px;
+}
+.secondButton{
+    margin-left: 2%;
+
+}
+.pcolor{
+    position: relative;
+    color:#B9BABE;
+    font-size: 14px;
+    line-height: 1.25;
+}
+
+.hcolor{
+    position: relative;
+    color: #2c2f3a;
+    margin:0px;
+    margin-top: 1rem;
+    font-size: 16px;
+}
+.city{
+    position: absolute;
+    bottom: 0rem;
+    right: 1rem;
+    color: #7984a7;
+    font-size: 12px;
+}
+/* //////////////////////////////////////////////////////// */
+.bar{
+    position: relative;
+    height: 75%;
+}
+.ctnr{
+    position: relative;
+    height: 100%;
+
+}
+.ldiv{
+    position: relative;
+    background-color: #ffffff;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.rdiv{
+    position: relative;
+    
+    height: 100%;
+   
+
+}
+.sImg{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+
+}
+.imgdiv{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+}
+
+.spell{
+    position: relative;
+    font-size: 24px;
+    line-height: 1.25;
+}
+@media screen and (max-width:1000px) {
+    .spell{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:850px) {
+    .spell{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:766px) {
+    .spell{
+        font-size: 18px;
+    }
+}
+.rimage{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

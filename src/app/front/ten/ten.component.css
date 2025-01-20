@@ -1,0 +1,95 @@
+.emptyDiv{
+    position: relative;
+    height: 5rem;
+    background-color:white;
+}
+
+.ten{
+    position: relative;
+    background-color: whitesmoke;
+    /* padding-top: 4%; */
+    min-height: 100vh;
+}
+
+.heading{
+    position: relative;
+    resize: both;
+}
+
+
+.containe{
+    position: relative;
+    /* margin-top: 4%; */
+    /* margin-bottom: 5%; */
+    margin-left: 12%;
+    margin-right: 12%;
+    /* border: 2px solid yellow; */
+}
+
+
+@media screen and (max-width:767px )
+{
+   
+    .heading h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .containe{
+       
+        margin-left: 2.5rem;
+        margin-right: 2rem;
+      
+    }
+
+
+} 
+
+hr{
+    position: relative;
+    width:8rem;
+    height: 0.625rem;
+    line-height: 0px;
+    opacity: 0.5;
+    border-top-width: 1px;
+    background-color: #FFB738;
+    color:#FFB738;
+}
+h1 {
+    margin-bottom: 0; /* Remove the bottom margin */
+    font-size: 3rem;
+    opacity: 1;
+    /* font-family: ba; */
+    /* font-weight: bolder; */
+}
+
+hr {
+    margin-top: 0; /* Remove the top margin */
+    margin-bottom: 2.25rem;
+}
+
+
+
+/* /////////////////// */
+
+.qa-container {
+    position: relative;
+  
+    white-space: nowrap;
+   
+
+  }
+
+   .para{
+    font-size: 14px;
+    color: #6D7280;
+    line-height: 1.4;
+
+   }
+   .toggle-button {
+   
+    cursor: pointer;
+  }
+  
+  .questionDiv {
+    cursor: pointer;
+  }

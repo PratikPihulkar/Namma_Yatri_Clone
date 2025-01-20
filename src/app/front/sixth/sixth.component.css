@@ -1,0 +1,146 @@
+.sixth{
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    width:100vw;
+    background-color: #2C2F3A;
+    color: #FFFFFF ;
+}
+
+@media screen and  (max-width: 1338px) {
+   .sixth{
+    display: flex;
+    position: relative;
+    min-height: 40vh;
+    width: 100vw;
+ }
+}
+@media screen and  (min-width: 1338px) {
+   .sixth{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+ }
+ 
+}
+.heading{
+    position: relative;
+    resize: both;
+}
+
+
+.containe{
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media screen and (min-width:768px) and (max-width:1100px )
+{
+    .containe{
+    
+        width: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right:10%;     
+    }
+}
+@media screen and (max-width:767px )
+{
+    .containe{
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right:5%;
+    }
+    .heading h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+
+hr{
+    position: relative;
+    width:8rem;
+    height: 0.625rem;
+    line-height: 0px;
+    background-color: #FFB738;
+    opacity: 0.5;
+}
+
+
+h1{
+    margin-bottom: 0px;
+}
+hr {
+    margin-top: 0; /* Remove the top margin */
+    margin-bottom: 2.25rem;
+}
+
+/* ////////////////////////////////////////1/8 */
+
+.bt{
+    background-color: transparent;
+    position: relative;
+    border: 1px solid #e5e7eb;
+    float: left;
+    height: 208px;
+    width: 376px;
+    margin-right:20px ;
+    border-radius: 7px;
+    flex-shrink: 0; /* Prevents shrinking when container width is smaller */
+    background-color: #FFFFFF14;
+
+}
+.br{
+    position: relative;
+    margin-top: 5%;
+    
+  
+    
+}
+.scroll-container{
+    display: flex;
+    overflow-x: scroll; /* Allows horizontal scrolling */
+    overflow-y: hidden; /* Hides vertical scrollbar */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    scrollbar-width: none; /* For Firefox */
+}
+
+
+.btn{
+    position: relative;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #B9BABE;
+    margin-top: 5%;
+    color: #B9BABE;
+}
+.firstButton{
+
+    margin-left: 0px;
+    width: 244px;
+}
+@media screen and (max-width:768px) {
+    .firstButton{
+         width: auto;}
+}
+.secondButton{
+    margin-left: 2%;
+
+}
+.pcolor{
+    position: relative;
+    color:#B9BABE;
+}
+.hcolor{
+    position: relative;
+    color: #53BB61;
+
+}

@@ -1,0 +1,130 @@
+.eight{
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(162, 152, 172);
+}
+
+@media screen and  (max-width: 1338px) {
+   .eight{
+    display: flex;
+    position: relative;
+    min-height: 70vh;
+    width: 100%;
+    background-color: blueviolet;
+ }
+}
+@media screen and  (min-width: 1338px) {
+   .eight{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    
+    background-color: blueviolet;
+ }
+ 
+}
+.heading{
+    position: relative;
+    resize: both;
+}
+
+
+.containe{
+    width: 100vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media screen and (min-width:768px) and (max-width:1100px )
+{
+    .containe{
+        background-color: bisque;
+        width: 100vw;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right:10%;
+        
+      
+    }
+}
+
+@media screen and (max-width:767px )
+{
+    .containe{
+        background-color: bisque;
+        width: 100vw;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right:5%;
+    }
+    .heading h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+hr{
+    position: relative;
+    width:8rem;
+    height: 0.625rem;
+    line-height: 0px;
+    background-color: black;
+    opacity: 0.5;
+}
+.bar
+{
+    position: relative;
+    height: 80vh;
+    width: 80%;
+}
+.leftDiv{
+    position: relative;
+    float: left;
+    background-color: rgb(116, 113, 113);
+    width:50%;
+    height: 80vh;
+}
+.rightDiv{
+    position: relative;
+    float: left;
+    background-color: rgb(159, 42, 42);
+}
+.imgDiv{
+    position: relative;
+    float: right;
+    height: 70vh;
+    width:50%;
+
+}
+
+.box{
+    padding-inline:10%;
+    position: relative;
+    border: 1px solid darkblue;
+    height: 100%;
+}
+
+@media screen and (max-width:768px) {
+    
+}
+hr{
+    width:8rem;
+    height: 0.625rem;
+    background-color: #FFB738;
+    opacity: 0.5;
+    line-height: 10px;
+    color:#FFB738;
+}
+h1{
+    margin-bottom: 0px;
+}
+hr {
+    margin-top: 0; /* Remove the top margin */
+    margin-bottom: 2.25rem;
+}

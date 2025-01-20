@@ -1,0 +1,96 @@
+
+.secondBackground{
+    position: relative;
+    height: 100vh;
+    width:100%;
+    background-color: whitesmoke;
+    display: flex;
+}
+@media screen and (max-width:1338px) {
+    .secondBackground{
+    height: auto;
+    }
+}
+@media screen and (max-width:1338px) {
+    .secondBackground{
+    height:auto;
+    }
+}
+.containee{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    background-color:transparent;
+  
+}
+
+.rdiv{
+    position: relative;
+    background-image: url("https://nammayatri.in/img/driver-NammaYatri.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    position: relative;
+    margin-bottom: 0; /* Remove the bottom margin */
+    font-size: 40px;
+    opacity: 1;
+    font-weight: 700;
+    color: #454545;
+    line-height: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+hr{
+    position: relative;
+    width:8rem;
+    height: 0.625rem;
+    line-height: 0px;
+    opacity: 0.5;
+    border-top-width: 1px;
+    background-color: #FFB738;
+    color:#FFB738;
+    margin-top: 10px; /* Remove the top margin */
+    margin-bottom: 2.25rem;
+}
+
+
+.para{
+    position: relative;
+    margin-top: 5rem;
+    color:#868B98;
+    font-size: 26px;
+    contain: layout;
+    line-height: 1.25;
+    margin: 0px;
+}
+.btn{
+    position: relative;
+    height: 50px;
+    width: 220px;
+    margin-top: 3rem;
+    background-color: #FFB738;
+    color:#000000;
+    margin-bottom:2rem ;
+
+}
+@media screen and (max-width:768px) {
+    h1{
+        font-size: 2rem;
+    }
+    .para{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+   .rdiv{
+    min-height: 20rem;
+   }
+   .containee{
+    margin-bottom: 3rem;
+   }
+}
+@media screen and (max-width:1340px) {
+    .row{
+        margin-top:2rem;
+    }
+}
