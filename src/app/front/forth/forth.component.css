@@ -70,10 +70,17 @@ hr{
     width: 220px;
     margin-top: 3rem;
     background-color: #FFB738;
+    border-color:  #FFB738;
     color:#000000;
     margin-bottom:2rem ;
 
 }
+.btn:active {
+    background-color:  #b4da4d;
+    border-color:  #b4da4d;
+    color:#000000;
+
+  }
 @media screen and (max-width:768px) {
     h1{
         font-size: 2rem;
