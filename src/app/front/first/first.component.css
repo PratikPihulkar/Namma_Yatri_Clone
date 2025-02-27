@@ -4,6 +4,9 @@
     min-height: 80vh;
     /* background-image: url("src/assets/photos/homeBg.png"); */
     background-image: url("https://nammayatri.in/img/homeBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 @media screen and (min-width: 480px) {
@@ -21,45 +24,57 @@
 
 
 
-  .heading{
-    border: 2px solid rgb(27, 18, 18);
-    height: fit-content;
-    width: 40vw;
-    margin:5%;
-    width: 90%;
-  }
   .above{
     position: relative;
     border: 1px solid rgb(80, 225, 58);
-    min-height: 50%;
-    margin: 0;
-  }
+    font-size:55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 560;
+
+  /* color: rgb(252 195 44); */
+  }    
+  
   .information{
     position: relative;
+    margin-top: 20px;
     border: 1px solid rgb(52, 68, 50);
     min-height: 50%;
     padding: 2%;
+    font-size:22px ;
     
   }
+  .downPara{
+    line-height: 1.4;
+  }
+.btnn{
+  border-radius: 20px;
+  background-color: rgb(133, 136, 139);
+  border: none;
+  color: white;
+  padding-left:10px;
+  padding-right:10px;
+  margin-right: 20px;
+  margin-top: 20px;
+  
+
+}
 
 
   @media screen and (min-width: 480px)
 {
     .heading{
         border: 2px solid red;
-        
-        width: 30vw;
-        margin-left:10%;
-        margin-top:8vw;
         float: left;
         display: inline; 
+        padding-top: 5rem;
+        text-align: left;
+       
         
       }
       .above{
         position: relative;
-        border: 1px solid rgb(80, 225, 58);
-        min-height: 50%;
-        margin: 0;
+        border: 1px solid rgb(58, 103, 225)
+        
       }
       .information{
         position: relative;
@@ -75,7 +90,7 @@
 
 .imgdiv{
     border: 2px solid rgb(19, 13, 19);
-    height: 50vh;
+   
     width: 100%;
    
     
@@ -85,9 +100,7 @@
         position: relative;
         border: 2px solid rgb(80, 195, 30);
         
-        bottom:0vh;
-        width: 50vw;
-        /* height: 680px; */
+        width: 35vw;
         height: 81vh;
         float: right;
         display: inline; 
@@ -98,13 +111,17 @@
   .imgdiv{
     position: relative;
     border: 2px solid rgb(72, 213, 203);
-    width: 50vw;
+   
     height: 55vh;
     float: right;
     display: inline; 
     bottom: 0px;
 }
 }
+
+
+
+
 
 .nav{
     position: relative;
@@ -120,6 +137,12 @@
     padding-left: 25vw;
     padding-right: 25vw;
     color:white
+}
+.downlodAppBtn{
+  color:#000000;
+  border: none;
+  width:15rem;
+  height:3rem
 }
 
   
@@ -158,7 +181,7 @@
 }
 .ctnr{
 
-  width: 70vw;
+  width: 60vw;
   margin: auto;
 
 }
