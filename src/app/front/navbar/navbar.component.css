@@ -1,0 +1,51 @@
+.mdiv{
+    position: relative;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.imgDiv {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-item {
+    margin-right: 29px;
+    font-size: 20px;
+}
+.nav-item-last {
+    margin-right: 15px;
+ 
+}
+
+.nav-link {
+    color: #f4f4f6 !important;
+    opacity: +2;
+    white-space: nowrap;
+}
+
+.nav-link:hover{
+    color:gold!important;
+  
+}
+@media screen and (max-width: 1200px)
+{
+    .nav-item {
+        margin-right: 19px;
+        color: #f4f4f6 !important
+    }
+    .nav-item-last {
+        margin-right: 0px;
+     
+    }
+}
+
+.nav-link.active {
+    color: gold !important; /* Same as hover color */
+   
+}

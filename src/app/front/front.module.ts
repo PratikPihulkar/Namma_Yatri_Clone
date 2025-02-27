@@ -16,6 +16,7 @@ import { SeventhComponent } from './seventh/seventh.component';
 import { CrouselComponent } from './eight/crousel/crousel.component';
 import { Eight222Component } from './eight222/eight222.component';
 import { FirstComponent } from './first/first.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { FirstComponent } from './first/first.component';
     CrouselComponent,
     Eight222Component,
     FirstComponent,
+    NavbarComponent,
   
   ],
   imports: [

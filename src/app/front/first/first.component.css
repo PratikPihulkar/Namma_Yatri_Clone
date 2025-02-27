@@ -2,7 +2,9 @@
    
     padding-top: 0vh;
     min-height: 80vh;
+    /* background-image: url("src/assets/photos/homeBg.png"); */
     background-image: url("https://nammayatri.in/img/homeBg.png");
+    
 }
 @media screen and (min-width: 480px) {
     .firstBackground{
@@ -17,37 +19,7 @@
     }
 }
 
-.nav{
-    position: relative;
-   background-color: brown;
-   height: 80px;
-   
-}
-.marqueeNav{
-    position: relative;
-    height: 5.5vh;
-    width: 100%;
-    background-color: #111111;
-    padding-left: 25vw;
-    padding-right: 25vw;
-    color:white
-}
 
-  
-    @media screen and (min-width: 767px) {
-  
-    .nav{
-        position: relative;
-        margin-left: 10vw;
-        margin-right: 10vw;
-        /* top: 10vh; */
-        background-color: rgb(125, 150, 150);
-        height:13vh;
-        min-height: 10vh;
-        
-      }
-  }
-  
 
   .heading{
     border: 2px solid rgb(27, 18, 18);
@@ -134,10 +106,82 @@
 }
 }
 
+.nav{
+    position: relative;
+   background-color: transparent;
+   height: 80px;
+   
+}
+.marqueeNav{
+    position: relative;
+    height: 5.5vh;
+    width: 100%;
+    background-color: #111111;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    color:white
+}
+
+  
+    @media screen and (min-width: 767px) {
+  
+    .nav{
+        position: relative;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        /* top: 10vh; */
+       
+        height:13vh;
+        min-height: 10vh;
+        padding: 35px;
+        
+      }
+  }
+ 
+  
 
 
 
 
+/* Navbar Bootstrao */
 
+.navTag{
+  width: 100%;
+}
+.marqueeNav{
+  padding: 10px;
+}
+.marqueeNavContaint{
+ 
+  margin: auto;
+  overflow: hidden;
+}
+.ctnr{
 
+  width: 70vw;
+  margin: auto;
 
+}
+strong{
+  opacity: 1;
+}
+.openDataBtn{
+    border-radius: 20px;
+    margin-left: 5px;
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    color:white;
+    white-space: nowrap;
+
+    padding: 5px 10px;
+    flex-shrink: 0; /* Prevents button from shrinking */
+}
+.openDataBtn:hover{
+    background-color: white;
+    color:rgb(0, 0, 0);
+}
+.hvImg{
+    margin-left: 15px; 
+    margin-right: 5px;
+}

@@ -3,7 +3,6 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -14,7 +13,6 @@ import { DownlodAppComponent } from './downlod-app/downlod-app.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
     DownlodAppComponent,
   
   ],
