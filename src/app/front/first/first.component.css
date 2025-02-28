@@ -43,9 +43,10 @@
     font-size:22px ;
     
   }
-  .downPara{
-    line-height: 1.4;
+  .heading{
+    margin-top: 5rem;
   }
+
 .btnn{
   border-radius: 20px;
   background-color: rgb(133, 136, 139);
@@ -60,7 +61,7 @@
 }
 
 
-  @media screen and (min-width: 480px)
+  @media screen and (min-width: 767px)
 {
     .heading{
         border: 2px solid red;
@@ -83,9 +84,48 @@
         padding: 2%;
         
       }
+      .downPara{
+        line-height: 1.4;
+      }
 }
-
-
+@media screen and (max-width: 767px)
+{
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+  .heading{
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 2rem;
+    padding-top:0rem;
+    display: flex;
+    flex-direction:column ;
+    text-align: left;
+  }
+  .above{
+    
+    font-size:30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 560;
+    line-height: 0.4;
+    text-align: center;
+  }
+  .downPara{
+    font-size: 15px;
+    text-align: center;
+  }
+  .twoBtn{
+    display: flex;
+    justify-content: center;
+  }
+  .btnn{
+    margin-right: 0rem;
+  }
+  .btn1{
+    margin-right: 2rem;
+  }
+  
+}
 
 
 .imgdiv{
